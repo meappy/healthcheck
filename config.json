@@ -1,0 +1,15 @@
+{
+    "urls": [
+        "https://127.0.0.1/",
+        "https://127.0.0.1/client",
+        "https://127.0.0.1/demo",
+        "https://127.0.0.1/ehr",
+        "https://127.0.0.1/meds",
+        "https://127.0.0.1/meds-config-api",
+        "https://127.0.0.1/meds-dose",
+        "https://127.0.0.1/terminology-adapter"
+    ],
+    "timeout": 5,
+    "success_codes": [200, 301, 401, 404, 502],
+    "verify_tls": false
+}
