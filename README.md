@@ -1,4 +1,10 @@
-<p align="center"><img src="docs/banner.svg" alt="healthcheck" width="800"></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="docs/banner-light.svg">
+    <img alt="healthcheck" src="docs/banner-dark.svg" width="800">
+  </picture>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white" alt="Python 3">
