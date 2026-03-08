@@ -1,3 +1,11 @@
+<p align="center"><img src="docs/banner.svg" alt="healthcheck" width="800"></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white" alt="Python 3">
+  <img src="https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white" alt="Nginx">
+  <img src="https://img.shields.io/badge/uWSGI-green" alt="uWSGI">
+</p>
+
 # HTTP Health Check Script
 
 The `health_check.py` script performs a HTTP health check on given URLs and outputs the health status in JSON format. It checks the URLs using a multi-threaded approach and supports both full and simple reporting.

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#14B8A6" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#14B8A6" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#14B8A6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Heartbeat/pulse icon -->
+  <g transform="translate(280, 70)">
+    <!-- Circle outline -->
+    <circle cx="24" cy="24" r="22" fill="none" stroke="#14B8A6" stroke-width="2.5"/>
+    <!-- Checkmark -->
+    <polyline points="12,24 20,32 36,16" fill="none" stroke="#14B8A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="90" text-anchor="middle" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="white" letter-spacing="1">
+    <tspan dx="30">healthcheck</tspan>
+  </text>
+
+  <!-- Decorative line -->
+  <line x1="100" y1="115" x2="700" y2="115" stroke="url(#line-grad)" stroke-width="1.5"/>
+
+  <!-- Subtitle -->
+  <text x="400" y="145" text-anchor="middle" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#94A3B8" font-weight="400" letter-spacing="0.5">
+    HTTP health check endpoint for monitoring
+  </text>
+</svg>
